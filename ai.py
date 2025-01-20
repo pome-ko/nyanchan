@@ -1,5 +1,3 @@
-!pip install -U kogi-canvas
-
 from kogi_canvas import Canvas
 from kogi_canvas import play_othello
 import math
