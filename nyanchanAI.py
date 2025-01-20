@@ -69,7 +69,7 @@ def random_place(board, stone):
         if can_place_x_y(board, stone, x, y):
             return x, y
 
-class nekoAI(object):
+class nyanchanAI(object):
     def face(self):
         return "🐱"
 
@@ -133,4 +133,4 @@ class nekoAI(object):
             return random_place(board, stone)
 
 # AIと対戦するゲーム
-play_othello(nekoAI())
+play_othello(nyanchanAI())
